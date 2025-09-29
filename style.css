@@ -2,14 +2,12 @@ body {
     background-color: lightblue;
 }
 
- td {
-  width: 200px;
-  height: 200px;
+#sky {
+  width: 90px;
+  height: 50px;
   border: 1px solid black;
   text-align: center;
 } 
-
-
 
 #sky:hover {
     transform: rotate(180deg);
