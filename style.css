@@ -9,10 +9,9 @@ body {
 
 #greenapple{
   position: absolute;
-  width:1100px;
-  margin-left:auto;
-  margin-right:auto;
-  top: 4px;
+  width:1200px;
+  left:39px;
+  top:-25px;
 }
 
 #greenapple:hover {
