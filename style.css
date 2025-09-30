@@ -117,14 +117,14 @@ body {
 
 #eye {
   position: absolute;
-  right: 500px;
-  top: 350px;
   width: 160px;
   height: 160px;
   background-image: url('closed_eye.png');
   background-size: contain;
   background-repeat: no-repeat;
   background-position: center;
+  left: calc(50% - 85px);
+    top: 315px;
 }
 
 #eye:hover {
