@@ -131,6 +131,17 @@ body {
   background-image: url('open_eye.png');
 }
 
+#orange_head {
+  position: absolute;
+  width: 500px;
+  left:352px;
+  top:15px
+}
+
+#orange_head:hover {
+  transform: rotate(360deg);
+  transition: 2s;
+} 
 
 #me_rain {
   width: 180px;
