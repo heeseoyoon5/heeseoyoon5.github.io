@@ -11,7 +11,7 @@ body {
   position: absolute;
   width:360px;
   left:400px;
-  top:110px;
+  top: 130px;
 }
 
 #greenapple:hover {
@@ -32,7 +32,7 @@ body {
   position: absolute;
   width: 60px;
   right:180px;
-  top:100px
+  top:140px
 }
 
 #click_orange:hover {
@@ -52,8 +52,8 @@ body {
 #click_fork {
   position: absolute;
   width: 110px;
-  left:240px;
-  top:90px
+  left:220px;
+  top:140px
 }
 
 #click_fork:hover {
@@ -73,8 +73,8 @@ body {
 #click_cloud {
   position: absolute;
   width: 110px;
-  right:550px;
-  top:130px
+  right:520px;
+  top:160px
 }
 
 #click_cloud:hover {
@@ -117,8 +117,8 @@ body {
 
 #eye {
   position: absolute;
-  right: 610px;
-  top: 310px;
+  right: 580px;
+  top: 340px;
   width: 160px;
   height: 160px;
   background-image: url('closed_eye.png');
@@ -169,7 +169,7 @@ body {
 }
 
 #me_rain_2:hover {
-  transform: rotate(180deg);
+  transform: rotate(360deg);
   transition: 2s;
 } 
 
@@ -187,7 +187,7 @@ body {
 }
 
 #me_rain_4:hover {
-  transform: rotate(180deg);
+  transform: rotate(-180deg);
   transition: 2s;
 } 
 
@@ -196,7 +196,7 @@ body {
 }
 
 #me_rain_5:hover {
-  transform: rotate(180deg);
+  transform: rotate(-180deg);
   transition: 2s;
 } 
 
