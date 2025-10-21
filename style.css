@@ -10,28 +10,29 @@ body {
 #title {
   position: absolute;
   width: 65vw;
-  left: calc(20%);
+  left: 16.25vw;
+  display: block;
   top: 10vw;
 }
 
 #pearl_og {
   position: absolute;
   width: 30vw;
-  left: calc(20%);
+  left: calc(15%);
   top: 20vw;
 }
 
 #pearl_money {
   position: absolute;
   width: 30vw;
-  left: calc(20%);
+  left: calc(15%);
   top: 20vw;
 }
 
 #pearl_mad {
   position: absolute;
   width: 30vw;
-  left: calc(20%);
+  left: calc(15%);
   top: 20vw;
 }
 
@@ -43,46 +44,45 @@ body {
   opacity:0
 } 
 
- #pearl_og:hover ~ #mona_og {
+section:has(#pearl_og:hover) > #mona_og {
   opacity:0
-} 
+}
+
+#pearl_og:active {
+  transform: scale(1.1);
+}
+
+section:has(#pearl_og:active) > #mona_dog {
+  opacity: 0;
+}
 
  #mona_og:active ~ #pearl_dog {
   opacity:0
 } 
 
 #mona_og:active {
-  animation: wiggle 0.6s infinite alternate ease-in-out;
-  transition: 3s;
-}
-
-@keyframes wiggle {
-  from {
-    transform: rotate(-1deg);
-  }
-  to {
-    transform: rotate(1deg);
-  }
+  transform:scale(1.1)translatez(20px);
+  cursor:pointer;
 }
 
 #mona_mad {
   position: absolute;
   width: 30vw;
-  right: calc(20%);
+  right: calc(15%);
   top: 20vw;
 }
 
 #mona_dog {
   position: absolute;
   width: 30vw;
-  right: calc(20%);
+  right: calc(15%);
     top: 20vw;
 }
 
 #mona_og {
   position: absolute;
   width: 30vw;
-  right: calc(20%);
+  right: calc(15%);
     top: 20vw;
 }
 
