@@ -7,7 +7,50 @@ body {
       margin: 0;
 }
 
+#title {
+  position: absolute;
+  width: 500px;
+  left: calc(50%);
+  top: 250px;
+}
+
+#mona_og, #pearl_og {
+  z-index: 5;
+  opacity: 1;
+}
+
+#mona_dog, #mona_mad, #pearl_money, #pearl_mad {
+  opacity: 0;
+  z-index: 1;
+}
+
+#pearl_og:hover ~ #mona_dog,
+#pearl_og:active ~ #mona_mad {
+  opacity: 1;
+  z-index: 6;
+}
+
+#mona_og:hover ~ #pearl_money,
+#mona_og:active ~ #pearl_mad {
+  opacity: 1;
+  z-index: 6;
+}
+
 #pearl_og {
+  position: absolute;
+  width: 500px;
+  left: calc(33%);
+    top: 350px;
+}
+
+#pearl_money {
+  position: absolute;
+  width: 500px;
+  left: calc(33%);
+    top: 350px;
+}
+
+#pearl_mad {
   position: absolute;
   width: 500px;
   left: calc(33%);
@@ -21,6 +64,19 @@ body {
     top: 350px;
 }
 
+#mona_dog {
+  position: absolute;
+  width: 500px;
+  right: calc(33%);
+    top: 350px;
+}
+
+#mona_mad {
+  position: absolute;
+  width: 500px;
+  right: calc(33%);
+    top: 350px;
+}
 
 section {
   padding-top: 200px;
