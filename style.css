@@ -9,28 +9,28 @@ body {
 
 #title {
   position: absolute;
-  width: 70vw;
+  width: 65vw;
   left: calc(20%);
-  top: 15vw;
+  top: 10vw;
 }
 
 #pearl_og {
   position: absolute;
-  width: 25vw;
+  width: 30vw;
   left: calc(20%);
   top: 20vw;
 }
 
 #pearl_money {
   position: absolute;
-  width: 25vw;
+  width: 30vw;
   left: calc(20%);
   top: 20vw;
 }
 
 #pearl_mad {
   position: absolute;
-  width: 25vw;
+  width: 30vw;
   left: calc(20%);
   top: 20vw;
 }
@@ -67,21 +67,21 @@ body {
 
 #mona_mad {
   position: absolute;
-  width: 25vw;
+  width: 30vw;
   right: calc(20%);
   top: 20vw;
 }
 
 #mona_dog {
   position: absolute;
-  width: 25vw;
+  width: 30vw;
   right: calc(20%);
     top: 20vw;
 }
 
 #mona_og {
   position: absolute;
-  width: 25vw;
+  width: 30vw;
   right: calc(20%);
     top: 20vw;
 }
