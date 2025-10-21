@@ -9,30 +9,30 @@ body {
 
 #title {
   position: absolute;
-  width: 1000px;
-  left: calc(20%);
-    top: 200px;
+  width: 70vw;
+  left: calc(50%);
+  top: 15vw;
 }
 
 #pearl_og {
   position: absolute;
-  width: 500px;
+  width: 25vw;
   left: calc(20%);
-    top: 350px;
+  top: 20vw;
 }
 
 #pearl_money {
   position: absolute;
-  width: 500px;
+  width: 25vw;
   left: calc(20%);
-    top: 350px;
+  top: 20vw;
 }
 
 #pearl_mad {
   position: absolute;
-  width: 500px;
+  width: 25vw;
   left: calc(20%);
-    top: 350px;
+  top: 20vw;
 }
 
  #mona_og:hover ~ #pearl_og {
@@ -67,23 +67,23 @@ body {
 
 #mona_mad {
   position: absolute;
-  width: 500px;
+  width: 25vw;
   right: calc(20%);
-    top: 350px;
+  top: 20vw;
 }
 
 #mona_dog {
   position: absolute;
-  width: 500px;
+  width: 25vw;
   right: calc(20%);
-    top: 350px;
+    top: 20vw;
 }
 
 #mona_og {
   position: absolute;
-  width: 500px;
+  width: 25vw;
   right: calc(20%);
-    top: 350px;
+    top: 20vw;
 }
 
 
