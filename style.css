@@ -9,74 +9,88 @@ body {
 
 #title {
   position: absolute;
-  width: 500px;
-  left: calc(50%);
-  top: 250px;
-}
-
-#mona_og, #pearl_og {
-  z-index: 5;
-  opacity: 1;
-}
-
-#mona_dog, #mona_mad, #pearl_money, #pearl_mad {
-  opacity: 0;
-  z-index: 1;
-}
-
-#pearl_og:hover ~ #mona_dog,
-#pearl_og:active ~ #mona_mad {
-  opacity: 1;
-  z-index: 6;
-}
-
-#mona_og:hover ~ #pearl_money,
-#mona_og:active ~ #pearl_mad {
-  opacity: 1;
-  z-index: 6;
+  width: 1000px;
+  left: calc(20%);
+    top: 200px;
 }
 
 #pearl_og {
   position: absolute;
   width: 500px;
-  left: calc(33%);
+  left: calc(20%);
     top: 350px;
 }
 
 #pearl_money {
   position: absolute;
   width: 500px;
-  left: calc(33%);
+  left: calc(20%);
     top: 350px;
 }
 
 #pearl_mad {
   position: absolute;
   width: 500px;
-  left: calc(33%);
+  left: calc(20%);
     top: 350px;
 }
 
-#mona_og {
+ #mona_og:hover ~ #pearl_og {
+  opacity:0
+} 
+
+ #mona_og:active ~ #pearl_money {
+  opacity:0
+} 
+
+ #pearl_og:hover ~ #mona_og {
+  opacity:0
+} 
+
+ #mona_og:active ~ #pearl_dog {
+  opacity:0
+} 
+
+#mona_og:active {
+  animation: wiggle 0.6s infinite alternate ease-in-out;
+  transition: 3s;
+}
+
+@keyframes wiggle {
+  from {
+    transform: rotate(-1deg);
+  }
+  to {
+    transform: rotate(1deg);
+  }
+}
+
+#pearl_og:active {
+  animation: wiggle 0.6s infinite alternate ease-in-out;
+  transition: 3s;
+}
+
+#mona_mad {
   position: absolute;
   width: 500px;
-  right: calc(33%);
+  right: calc(20%);
     top: 350px;
 }
 
 #mona_dog {
   position: absolute;
   width: 500px;
-  right: calc(33%);
+  right: calc(20%);
     top: 350px;
 }
 
-#mona_mad {
+#mona_og {
   position: absolute;
   width: 500px;
-  right: calc(33%);
+  right: calc(20%);
     top: 350px;
 }
+
 
 section {
   padding-top: 200px;
