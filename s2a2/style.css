@@ -1,0 +1,95 @@
+body {
+    background-color:white;
+      height: 200px;
+      background-size: cover;
+      background-position: center; 
+      background-repeat: no-repeat;
+      margin: 0;
+}
+
+#title {
+  position: absolute;
+  width: 65vw;
+  left: 16.25vw;
+  display: block;
+  top: 10vw;
+}
+
+#pearl_og {
+  position: absolute;
+  width: 30vw;
+  left: calc(15%);
+  top: 20vw;
+}
+
+#pearl_money {
+  position: absolute;
+  width: 30vw;
+  left: calc(15%);
+  top: 20vw;
+}
+
+#pearl_mad {
+  position: absolute;
+  width: 30vw;
+  left: calc(15%);
+  top: 20vw;
+}
+
+ #mona_og:hover ~ #pearl_og {
+  opacity:0
+} 
+
+ #mona_og:active ~ #pearl_money {
+  opacity:0
+} 
+
+section:has(#pearl_og:hover) > #mona_og {
+  opacity:0
+}
+
+#pearl_og:active {
+  transform: scale(1.1);
+}
+
+section:has(#pearl_og:active) > #mona_dog {
+  opacity: 0;
+}
+
+ #mona_og:active ~ #pearl_dog {
+  opacity:0
+} 
+
+#mona_og:active {
+  transform:scale(1.1)translatez(20px);
+  cursor:pointer;
+}
+
+#mona_mad {
+  position: absolute;
+  width: 30vw;
+  right: calc(15%);
+  top: 20vw;
+}
+
+#mona_dog {
+  position: absolute;
+  width: 30vw;
+  right: calc(15%);
+    top: 20vw;
+}
+
+#mona_og {
+  position: absolute;
+  width: 30vw;
+  right: calc(15%);
+    top: 20vw;
+}
+
+
+section {
+  padding-top: 200px;
+}
+
+
+
