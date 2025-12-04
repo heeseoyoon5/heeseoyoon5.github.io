@@ -1,10 +1,10 @@
 function setup() {
   createCanvas(550, 550);
-  strokeCap(round);
+  strokeCap(ROUND);
 }
 
 function draw() {
-  background(random(0,255),random(0,255),random(0,255),50);
+  background(random(0, 255), random(0, 255), random(0, 255), 50);
   translate(width / 2, height / 2);
 
   var circleResolution = int(map(mouseY, 80, height, 2, 80));
@@ -21,9 +21,9 @@ function draw() {
 }
 
 function keyPressed() {
-  if (key == 's' || key == 'S') saveCanvas(gd.timestamp(), 'png');
+  if (key == 's' || key == 'S') saveCanvas('sketch', 'png');
 }
 
 function mousePressed() {
-  stroke(random(0,255),random(0,255),random(0,255));
+  stroke(random(0, 255), random(0, 255), random(0, 255));
 }
