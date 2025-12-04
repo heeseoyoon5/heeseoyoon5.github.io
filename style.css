@@ -1,95 +1,103 @@
 body {
     background-color:white;
-      height: 200px;
+      height: 550px;
       background-size: cover;
       background-position: center; 
       background-repeat: no-repeat;
       margin: 0;
 }
 
-#title {
+#orange {
   position: absolute;
-  width: 65vw;
-  left: 16.25vw;
-  display: block;
-  top: 10vw;
+  width: 10vw;
+  left: calc(50%);
+  top: calc(50%);
 }
 
-#pearl_og {
-  position: absolute;
-  width: 30vw;
-  left: calc(15%);
-  top: 20vw;
-}
-
-#pearl_money {
-  position: absolute;
-  width: 30vw;
-  left: calc(15%);
-  top: 20vw;
-}
-
-#pearl_mad {
-  position: absolute;
-  width: 30vw;
-  left: calc(15%);
-  top: 20vw;
-}
-
- #mona_og:hover ~ #pearl_og {
-  opacity:0
-} 
-
- #mona_og:active ~ #pearl_money {
-  opacity:0
-} 
-
-section:has(#pearl_og:hover) > #mona_og {
-  opacity:0
-}
-
-#pearl_og:active {
-  transform: scale(1.1);
-}
-
-section:has(#pearl_og:active) > #mona_dog {
-  opacity: 0;
-}
-
- #mona_og:active ~ #pearl_dog {
-  opacity:0
-} 
-
-#mona_og:active {
+#orange:active {
   transform:scale(1.1)translatez(20px);
   cursor:pointer;
 }
 
-#mona_mad {
+#blue {
   position: absolute;
   width: 30vw;
-  right: calc(15%);
-  top: 20vw;
+  left: calc(18%);
+  top: calc(20%);
 }
 
-#mona_dog {
+#blue:hover {
+ animation: wiggle 0.6s infinite alternate ease-in-out;
+  transition: 3s;
+}
+
+@keyframes wiggle {
+  from {
+    transform: rotate(-3deg);
+  }
+  to {
+    transform: rotate(3deg);
+  }
+}
+
+#eye {
   position: absolute;
-  width: 30vw;
-  right: calc(15%);
-    top: 20vw;
+  width: 16vw;
+  left: calc(7%);
+  top: calc(75%);
 }
 
-#mona_og {
+#eye:hover {
+  animation: eye-wiggle 0.7s infinite alternate ease-in-out;
+}
+
+@keyframes eye-wiggle {
+  from {
+    transform: rotate(-180deg);
+  }
+  to {
+    transform: rotate(180deg);
+  }
+}
+
+#arrow {
   position: absolute;
-  width: 30vw;
-  right: calc(15%);
-    top: 20vw;
+  width: 6vw;
+  left: calc(80%);
+  top: calc(10%);
 }
 
-
-section {
-  padding-top: 200px;
+#arrow:hover {
+  animation: arrow-wiggle 0.7s infinite alternate ease-in-out;
 }
 
+@keyframes arrow-wiggle {
+  from {
+    transform: rotate(-80deg);
+  }
+  to {
+    transform: rotate(20deg);
+  }
+}
+
+canvas {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: auto;
+  margin-bottom: auto;
+
+}
+
+html, body {
+  height: 100%;
+  margin: 0;
+}
+
+body {
+  display: flex;
+  justify-content: center;   /* horizontal */
+  align-items: center;       /* vertical */
+}
 
 
