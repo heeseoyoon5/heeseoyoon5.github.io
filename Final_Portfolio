@@ -1,0 +1,104 @@
+<head>
+    <title>portfolio_home</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+<section>
+     <img id="jellyfish" src="Untitled_Artwork 47.png">
+     <img id="jellyfish_text" src="Untitled_Artwork 49.png">
+     <img id="still_life" src="Untitled_Artwork 54.png">
+     <img id="apple" src="Untitled_Artwork 48.png">
+     <img id="finger" src="finger.png">
+     <img id="mouth" src="mouth.png">
+     <img id="clock" src="clock.png">
+     <img id="shakespeare" src="shakespeare.png">
+     <img id="tea" src="tea.png">
+     <img id="abstract" src="abstract.png">
+<section>
+<section>
+
+<section>
+
+ </body>
+
+
+
+
+body {
+    background-image: url("portfolio_bg.jpg");
+      height: 100vh;
+      background-size: cover;
+      background-position: center; 
+      background-repeat: no-repeat;
+      margin: 0;
+}
+
+#jellyfish{
+  position: absolute;
+  width:13vw;
+  left: calc(15%);
+  top: calc(30%);
+}
+
+#still_life{
+  position: absolute;
+  width:13vw;
+  left: calc(30%);
+  top: calc(22%);
+}
+
+#apple{
+  position: absolute;
+  width:12vw;
+  left: calc(44.7%);
+  top: calc(32%);
+}
+
+#finger{
+  position: absolute;
+  width:13vw;
+  left: calc(59%);
+  top: calc(22%);
+}
+
+#mouth{
+  position: absolute;
+  width:13vw;
+  left: calc(72.5%);
+  top: calc(41%);
+}
+
+#clock{
+  position: absolute;
+  width:13vw;
+  left: calc(67%);
+  top: calc(71%);
+}
+
+#shakespeare{
+  position: absolute;
+  width:12vw;
+  left: calc(50%);
+  top: calc(73%);
+}
+
+#tea{
+  position: absolute;
+  width:11vw;
+  left: calc(37%);
+  top: calc(63%);
+}
+
+#abstract{
+  position: absolute;
+  width:13vw;
+  left: calc(21%);
+  top: calc(57%);
+}
+
+section {
+  padding-top: 200px;
+}
+
+
+
