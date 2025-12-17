@@ -1,103 +1,78 @@
 body {
-    background-color:white;
-      height: 550px;
+    background-image: url("portfolio_bg.jpg");
+      height: 100vh;
       background-size: cover;
       background-position: center; 
       background-repeat: no-repeat;
       margin: 0;
 }
 
-#orange {
+#jellyfish{
   position: absolute;
-  width: 10vw;
+  width:13vw;
+  left: calc(15%);
+  top: calc(30%);
+}
+
+#still_life{
+  position: absolute;
+  width:13vw;
+  left: calc(30%);
+  top: calc(22%);
+}
+
+#apple{
+  position: absolute;
+  width:12vw;
+  left: calc(44.7%);
+  top: calc(32%);
+}
+
+#finger{
+  position: absolute;
+  width:13vw;
+  left: calc(59%);
+  top: calc(22%);
+}
+
+#mouth{
+  position: absolute;
+  width:13vw;
+  left: calc(72.5%);
+  top: calc(41%);
+}
+
+#clock{
+  position: absolute;
+  width:13vw;
+  left: calc(67%);
+  top: calc(71%);
+}
+
+#shakespeare{
+  position: absolute;
+  width:12vw;
   left: calc(50%);
-  top: calc(50%);
+  top: calc(73%);
 }
 
-#orange:active {
-  transform:scale(1.1)translatez(20px);
-  cursor:pointer;
-}
-
-#blue {
+#tea{
   position: absolute;
-  width: 30vw;
-  left: calc(18%);
-  top: calc(20%);
+  width:11vw;
+  left: calc(37%);
+  top: calc(63%);
 }
 
-#blue:hover {
- animation: wiggle 0.6s infinite alternate ease-in-out;
-  transition: 3s;
-}
-
-@keyframes wiggle {
-  from {
-    transform: rotate(-3deg);
-  }
-  to {
-    transform: rotate(3deg);
-  }
-}
-
-#eye {
+#abstract{
   position: absolute;
-  width: 16vw;
-  left: calc(7%);
-  top: calc(75%);
+  width:13vw;
+  left: calc(21%);
+  top: calc(57%);
 }
 
-#eye:hover {
-  animation: eye-wiggle 0.7s infinite alternate ease-in-out;
+section {
+  padding-top: 200px;
 }
 
-@keyframes eye-wiggle {
-  from {
-    transform: rotate(-180deg);
-  }
-  to {
-    transform: rotate(180deg);
-  }
-}
-
-#arrow {
-  position: absolute;
-  width: 6vw;
-  left: calc(80%);
-  top: calc(10%);
-}
-
-#arrow:hover {
-  animation: arrow-wiggle 0.7s infinite alternate ease-in-out;
-}
-
-@keyframes arrow-wiggle {
-  from {
-    transform: rotate(-80deg);
-  }
-  to {
-    transform: rotate(20deg);
-  }
-}
-
-canvas {
-  display: block;
-  margin-left: auto;
-  margin-right: auto;
-  margin-top: auto;
-  margin-bottom: auto;
-
-}
-
-html, body {
-  height: 100%;
-  margin: 0;
-}
-
-body {
-  display: flex;
-  justify-content: center;   /* horizontal */
-  align-items: center;       /* vertical */
-}
 
 
