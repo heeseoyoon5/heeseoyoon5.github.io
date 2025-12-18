@@ -1,0 +1,273 @@
+body {
+    background-image: url("portfolio_bg.jpg");
+      height: 100vh;
+      background-size: cover;
+      background-position: center; 
+      background-repeat: no-repeat;
+      margin: 0;
+}
+
+#jellyfish{
+  position: absolute;
+  width:13vw;
+  left: calc(15%);
+  top: calc(30%);
+}
+
+.jelly-link {
+  width:13vw;
+  left: calc(15%);
+  top: calc(30%);
+}
+
+#jellyfish_text{
+  position: absolute;
+  width:8.5vw;
+  left: calc(14.4%);
+  top: calc(26.5%);
+  opacity: 0;
+  transition: opacity 0.1s ease;
+}
+
+.jelly-link:hover #jellyfish_text {
+  opacity: 1;
+}
+
+#still_life{
+  position: absolute;
+  width:12vw;
+  left: calc(30%);
+  top: calc(22%);
+}
+
+.still-life-link {
+  width:12vw;
+  left: calc(30%);
+  top: calc(22%);
+}
+
+#still-life_text{
+  position: absolute;
+  width:7.4vw;
+  left: calc(30.5%);
+  top: calc(18.3%);
+  opacity: 0;
+  transition: opacity 0.1s ease;
+}
+
+.still-life-link:hover #still-life_text {
+  opacity:1
+} 
+
+#apple{
+  position: absolute;
+  width:12vw;
+  left: calc(44.7%);
+  top: calc(32%);
+}
+
+.matisse-link {
+  width:12vw;
+  left: calc(44.7%);
+  top: calc(32%);
+}
+
+#matisse_text{
+  position: absolute;
+  width:7.5vw;
+  left: calc(46%);
+  top: calc(29%);
+  opacity: 0;
+  transition: opacity 0.1s ease;
+}
+
+.matisse-link:hover #matisse_text {
+  opacity:1
+} 
+
+#finger{
+  position: absolute;
+  width:12vw;
+  left: calc(59%);
+  top: calc(22%);
+}
+
+.webring-link{
+  width:12vw;
+  left: calc(59%);
+  top: calc(22%);
+}
+
+#webring_text{
+  position: absolute;
+  width:7vw;
+  left: calc(60.7%);
+  top: calc(18.1%);
+  opacity: 0;
+  transition: opacity 0.1s ease;
+}
+
+.webring-link:hover #webring_text {
+  opacity:1
+} 
+
+#mouth{
+  position: absolute;
+  width:12vw;
+  left: calc(72.5%);
+  top: calc(41%);
+}
+
+.portraits-link{
+  width:12vw;
+  left: calc(72.5%);
+  top: calc(41%);
+}
+
+#portraits_text{
+  position: absolute;
+  width:5.5vw;
+  left: calc(79.5%);
+  top: calc(39%);
+  opacity: 0;
+  transition: opacity 0.1s ease;
+}
+
+.portraits-link:hover #portraits_text {
+  opacity:1
+} 
+
+#clock{
+  position: absolute;
+  width:12vw;
+  left: calc(67%);
+  top: calc(71%);
+}
+
+.clock-link{
+  width:12vw;
+  left: calc(67%);
+  top: calc(71%);
+}
+
+#clock_text{
+  position: absolute;
+  width:6.5vw;
+  left: calc(69%);
+  top: calc(67%);
+  opacity: 0;
+  transition: opacity 0.1s ease;
+}
+
+.clock-link:hover #clock_text {
+  opacity:1
+} 
+
+#shakespeare{
+  position: absolute;
+  width:12vw;
+  left: calc(50%);
+  top: calc(73%);
+}
+
+.shakespeare-link{
+  width:12vw;
+  left: calc(50%);
+  top: calc(73%);
+}
+
+#shakespeare_text{
+  position: absolute;
+  width:11vw;
+  left: calc(51.4%);
+  top: calc(69.3%);
+  opacity: 0;
+  transition: opacity 0.1s ease;
+}
+
+.shakespeare-link:hover #shakespeare_text {
+  opacity:1
+} 
+
+#tea{
+  position: absolute;
+  width:11vw;
+  left: calc(37%);
+  top: calc(63%);
+}
+
+.tea-link{
+  width:11vw;
+  left: calc(37%);
+  top: calc(63%);
+}
+
+#milktea_text{
+  position: absolute;
+  width:11vw;
+  left: calc(37.4%);
+  top: calc(59.4%);
+  opacity: 0;
+  transition: opacity 0.1s ease;
+}
+
+.tea-link:hover #milktea_text {
+  opacity:1
+} 
+
+#abstract{
+  position: absolute;
+  width:13vw;
+  left: calc(21%);
+  top: calc(57%);
+}
+
+.abstract-link{
+  width:13vw;
+  left: calc(21%);
+  top: calc(57%);
+}
+
+#abstraction_text{
+  position: absolute;
+  width:10vw;
+  left: calc(21.4%);
+  top: calc(53.5%);
+  opacity: 0;
+  transition: opacity 0.1s ease;
+}
+
+.abstract-link:hover #abstraction_text {
+  opacity:1
+} 
+
+#readings_home{
+  position: absolute;
+  width:9vw;
+  left: 5vw;
+  top: 46vw;
+}
+
+.readings-link{
+  width:13vw;
+  left: calc(5%);
+  top: calc(57%);
+}
+
+#readings_text{
+  position: absolute;
+  width:10vw;
+  left: calc(21.4%);
+  top: calc(53.5%);
+}
+
+.readings-link:hover #readings_text {
+  opacity:1
+} 
+
+section {
+  padding-top: 200px;
+}
+
+
+
