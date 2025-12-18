@@ -7,13 +7,6 @@ body {
       margin: 0;
 }
 
-#heeseo_yoons{
-  position: absolute;
-  width:24vw;
-  left: calc(0%);
-  top: calc(0%);
-}
-
 #email{
   position: absolute;
   width:13vw;
@@ -88,6 +81,13 @@ body {
 
 .jelly-link:hover #jellyfish_text {
   opacity: 1;
+}
+
+#heeseo_yoons{
+  position: absolute;
+  width:24vw;
+  left: calc(0%);
+  top: calc(0%);
 }
 
 #still_life{
