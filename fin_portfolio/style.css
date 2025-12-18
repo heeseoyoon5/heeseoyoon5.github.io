@@ -67,14 +67,14 @@ body {
 #jellyfish{
   position: absolute;
   width:13vw;
-  left: 15%;
-  top: 30%;
+  left: calc(15%);
+  top: calc(30%);
 }
 
 .jelly-link {
   width:13vw;
-  left: 15%;
-  top: 30%;
+  left: calc(15%);
+  top: calc(30%);
 }
 
 #jellyfish_text{
