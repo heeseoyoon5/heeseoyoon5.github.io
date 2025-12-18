@@ -73,8 +73,8 @@ body {
 
 .jelly-link {
   width:13vw;
-  left: calc(15%);
-  top: calc(30%);
+  left: 15%;
+  top: 30%;
 }
 
 #jellyfish_text{
