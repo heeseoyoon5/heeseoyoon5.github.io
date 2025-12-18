@@ -42,9 +42,9 @@ body {
 
 #click_orange {
   position: absolute;
-  width: 4vw;
-  right:16vw;
-  top: 6vw;
+  width: 3.5vw;
+  right:24vw;
+  bottom: 41.5vw;
 }
 
 #click_orange:hover {
@@ -63,9 +63,9 @@ body {
 
 #click_fork {
   position: absolute;
-  width: 7.5vw;
-  left:20vw;
-  top:6vw;
+  width: 6.5vw;
+  left:24vw;
+  bottom: 40vw;
 }
 
 #click_fork:hover {
@@ -84,9 +84,9 @@ body {
 
 #click_cloud {
   position: absolute;
-  width: 7vw;
-  right:43.4vw;
-  top:9vw;
+  width: 6vw;
+  right:46vw;
+  bottom: 37.5vw
 }
 
 #click_cloud:hover {
@@ -101,6 +101,13 @@ body {
   to {
     transform: rotate(7deg);
   }
+}
+
+#three_mes{
+  position: absolute;
+  width:75vw;
+  left: calc(11%);
+  bottom: calc(0%);
 }
 
 #metal_fork {
@@ -156,65 +163,34 @@ body {
 } 
 
 #table1 {
-  margin-left: 100px; 
-  margin-top: 120px; 
-  width:1450px; 
+  width: 80vw;
+  margin: 12vw auto;
 }
 
 #table2 {
-  margin-left: 330px; 
-  margin-top: 10px; 
-  width:970px; 
+  width: 50vw;
+  margin: 10vw auto;
 }
 
-#me_rain {
-  width: 6vw;
-  left: 20vw;
-  top: 10vw;
-} 
-
-#me_rain:hover {
-  transform: rotate(180deg);
-  transition: 2s;
-} 
-
-#me_rain_2 {
-  width: 6vw;
-  left:40vw;
-  top: 60vw;
+td {
+  text-align: center;
 }
 
-#me_rain_2:hover {
-  transform: rotate(360deg);
-  transition: 2s;
-} 
-
-#me_rain_3 {
-  width: 6vw;
-}
-
-#me_rain_3:hover {
-  transform: rotate(180deg);
-  transition: 2s;
-} 
-
-#me_rain_4 {
-  width: 6vw;
-}
-
-#me_rain_4:hover {
-  transform: rotate(-180deg);
-  transition: 2s;
-} 
-
+#me_rain,
+#me_rain_2,
+#me_rain_3,
+#me_rain_4,
 #me_rain_5 {
   width: 6vw;
+  margin: 0 2vw;              
+  transition: transform 2s;
 }
 
-#me_rain_5:hover {
-  transform: rotate(-180deg);
-  transition: 2s;
-} 
+#me_rain:hover { transform: rotate(180deg); }
+#me_rain_2:hover { transform: rotate(360deg); }
+#me_rain_3:hover { transform: rotate(180deg); }
+#me_rain_4:hover,
+#me_rain_5:hover { transform: rotate(-180deg); }
 
 section {
   padding-top: 200px;
