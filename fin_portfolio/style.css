@@ -83,6 +83,26 @@ body {
   opacity: 1;
 }
 
+#jellyfish:hover {
+  animation: wiggle 0.6s infinite alternate ease-in-out;
+  transition: 1s;
+}
+
+@keyframes wiggle {
+  from {
+    transform: rotate(-6deg);
+  }
+  to {
+    transform: rotate(-2deg);
+  }
+}
+
+#jellyfish:hover {
+  filter:     
+    drop-shadow(0 0 5px rgba(255, 200, 80, 0.9))
+    drop-shadow(0 0 10px rgba(255, 170, 60, 0.7))
+}
+
 #heeseo_yoons{
   position: absolute;
   width:24vw;
@@ -116,6 +136,26 @@ body {
   opacity:1
 } 
 
+#still_life:hover {
+  animation: wiggle 0.6s infinite alternate ease-in-out;
+  transition: 1s;
+}
+
+@keyframes wiggle {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(5deg);
+  }
+}
+
+#still_life:hover {
+  filter:     
+    drop-shadow(0 0 5px rgba(255, 200, 80, 0.9))
+    drop-shadow(0 0 10px rgba(255, 170, 60, 0.7))
+}
+
 #apple{
   position: absolute;
   width:12vw;
@@ -141,6 +181,26 @@ body {
 .matisse-link:hover #matisse_text {
   opacity:1
 } 
+
+#apple:hover {
+  animation: wiggle 0.6s infinite alternate ease-in-out;
+  transition: 1s;
+}
+
+@keyframes wiggle {
+  from {
+    transform: rotate(-6deg);
+  }
+  to {
+    transform: rotate(-2deg);
+  }
+}
+
+#apple:hover {
+  filter:     
+    drop-shadow(0 0 5px rgba(255, 200, 80, 0.9))
+    drop-shadow(0 0 10px rgba(255, 170, 60, 0.7))
+}
 
 #finger{
   position: absolute;
@@ -168,6 +228,26 @@ body {
   opacity:1
 } 
 
+#finger:hover {
+  animation: wiggle 0.6s infinite alternate ease-in-out;
+  transition: 1s;
+}
+
+@keyframes wiggle {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(5deg);
+  }
+}
+
+#finger:hover {
+  filter:     
+    drop-shadow(0 0 5px rgba(255, 200, 80, 0.9))
+    drop-shadow(0 0 10px rgba(255, 170, 60, 0.7))
+}
+
 #mouth{
   position: absolute;
   width:12vw;
@@ -193,6 +273,26 @@ body {
 .portraits-link:hover #portraits_text {
   opacity:1
 } 
+
+#mouth:hover {
+  animation: wiggle 0.6s infinite alternate ease-in-out;
+  transition: 1s;
+}
+
+@keyframes wiggle {
+  from {
+    transform: rotate(-6deg);
+  }
+  to {
+    transform: rotate(0deg);
+  }
+}
+
+#mouth:hover {
+  filter:     
+    drop-shadow(0 0 5px rgba(255, 200, 80, 0.9))
+    drop-shadow(0 0 10px rgba(255, 170, 60, 0.7))
+}
 
 #clock{
   position: absolute;
@@ -220,6 +320,26 @@ body {
   opacity:1
 } 
 
+#clock:hover {
+  animation: wiggle 0.6s infinite alternate ease-in-out;
+  transition: 1s;
+}
+
+@keyframes wiggle {
+  from {
+    transform: rotate(2deg);
+  }
+  to {
+    transform: rotate(-3deg);
+  }
+}
+
+#clock:hover {
+  filter:     
+    drop-shadow(0 0 5px rgba(255, 200, 80, 0.9))
+    drop-shadow(0 0 10px rgba(255, 170, 60, 0.7))
+}
+
 #shakespeare{
   position: absolute;
   width:12vw;
@@ -245,6 +365,26 @@ body {
 .shakespeare-link:hover #shakespeare_text {
   opacity:1
 } 
+
+#shakespeare:hover {
+  animation: wiggle 0.6s infinite alternate ease-in-out;
+  transition: 1s;
+}
+
+@keyframes wiggle {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(-4deg);
+  }
+}
+
+#shakespeare:hover {
+  filter:     
+    drop-shadow(0 0 5px rgba(255, 200, 80, 0.9))
+    drop-shadow(0 0 10px rgba(255, 170, 60, 0.7))
+}
 
 #tea{
   position: absolute;
@@ -272,6 +412,26 @@ body {
   opacity:1
 } 
 
+#tea:hover {
+  animation: wiggle 0.6s infinite alternate ease-in-out;
+  transition: 1s;
+}
+
+@keyframes wiggle {
+  from {
+    transform: rotate(2deg);
+  }
+  to {
+    transform: rotate(-3deg);
+  }
+}
+
+#tea:hover {
+  filter:     
+    drop-shadow(0 0 5px rgba(255, 200, 80, 0.9))
+    drop-shadow(0 0 10px rgba(255, 170, 60, 0.7))
+}
+
 #abstract{
   position: absolute;
   width:13vw;
@@ -298,11 +458,37 @@ body {
   opacity:1
 } 
 
+#abstract:hover {
+  animation: wiggle 0.6s infinite alternate ease-in-out;
+  transition: 1s;
+}
+
+@keyframes wiggle {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(-5deg);
+  }
+}
+
+#abstract:hover {
+  filter:     
+    drop-shadow(0 0 5px rgba(255, 200, 80, 0.9))
+    drop-shadow(0 0 10px rgba(255, 170, 60, 0.7))
+}
+
 #readings_home{
   position: absolute;
   width:9vw;
   left: calc(5%);
   top: calc(80%);
+}
+
+#readings_home:hover {
+  filter:     
+    drop-shadow(0 0 5px rgba(255, 200, 80, 0.9))
+    drop-shadow(0 0 10px rgba(255, 170, 60, 0.7))
 }
 
 .readings-link{
@@ -339,9 +525,8 @@ body {
 
 .port_home-link:hover #portfolio_home {
   filter:     
-    drop-shadow(0 0 10px rgba(255, 200, 80, 0.9))
-    drop-shadow(0 0 20px rgba(255, 170, 60, 0.7))
-    drop-shadow(0 0 35px rgba(255, 140, 40, 0.5));
+    drop-shadow(0 0 5px rgba(255, 200, 80, 0.9))
+    drop-shadow(0 0 10px rgba(255, 170, 60, 0.7))
 }
 
 #grey{
@@ -372,11 +557,19 @@ body {
   top: calc(25%);
 }
 
+#one:hover {
+  transform: scale(1.1);
+}
+
 #two{
   position: absolute;
   width:6vw;
   left: calc(26%);
   top: calc(25%);
+}
+
+#two:hover {
+  transform: scale(1.1);
 }
 
 #three{
@@ -386,11 +579,19 @@ body {
   top: calc(25%);
 }
 
+#three:hover {
+  transform: scale(1.1);
+}
+
 #four{
   position: absolute;
   width:6vw;
   left: calc(46%);
   top: calc(25%);
+}
+
+#four:hover {
+  transform: scale(1.1);
 }
 
 #five{
@@ -400,11 +601,19 @@ body {
   top: calc(43%);
 }
 
+#five:hover {
+  transform: scale(1.1);
+}
+
 #six{
   position: absolute;
   width:6vw;
   left: calc(31%);
   top: calc(43%);
+}
+
+#six:hover {
+  transform: scale(1.1);
 }
 
 #seven{
@@ -414,11 +623,19 @@ body {
   top: calc(43%);
 }
 
+#seven:hover {
+  transform: scale(1.1);
+}
+
 #eight{
   position: absolute;
   width:6vw;
   left: calc(16%);
   top: calc(61%);
+}
+
+#eight:hover {
+  transform: scale(1.1);
 }
 
 #nine{
@@ -428,6 +645,10 @@ body {
   top: calc(61%);
 }
 
+#nine:hover {
+  transform: scale(1.1);
+}
+
 #ten{
   position: absolute;
   width:6vw;
@@ -435,11 +656,19 @@ body {
   top: calc(61%);
 }
 
+#ten:hover {
+  transform: scale(1.1);
+}
+
 #eleven{
   position: absolute;
   width:6vw;
   left: calc(46%);
   top: calc(61%);
+}
+
+#eleven:hover {
+  transform: scale(1.1);
 }
 
 #banner_sub{
@@ -545,6 +774,10 @@ body {
   width:18vw;
   right: calc(9%);
   top: calc(8.4%);
+}
+
+#next:hover {
+  transform: scale(1.05);
 }
 
 #fin{
