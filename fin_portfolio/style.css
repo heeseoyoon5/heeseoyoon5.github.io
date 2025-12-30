@@ -169,16 +169,16 @@ body {
   top: calc(32%);
 }
 
-#matisse_text{
+#magritte_text{
   position: absolute;
-  width:7.5vw;
+  width:8.8vw;
   left: calc(46%);
-  top: calc(29%);
+  top: calc(28.2%);
   opacity: 0;
   transition: opacity 0.1s ease;
 }
 
-.matisse-link:hover #matisse_text {
+.matisse-link:hover #magritte_text {
   opacity:1
 } 
 
